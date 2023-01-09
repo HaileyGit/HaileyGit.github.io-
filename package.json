@@ -7,7 +7,8 @@
         "develop": "yarn workspace hailey-blog develop",
         "serve": "yarn workspace hailey-blog serve",
         "format": "prettier --write --ignore-path .gitignore \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|graphql|md|mdx)\"",
-        "lint": "yarn workspaces run lint"
+        "lint": "yarn workspaces run lint",
+        "deploy": "yarn build && gh-pages -d ./hailey-blog/public -b deploy"
     },
     "workspaces": [
         "gatsby-theme-portfolio-minimal",
@@ -34,5 +35,8 @@
         "*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)": [
             "yarn format"
         ]
+    },
+    "dependencies": {
+        "gh-pages": "^4.0.0"
     }
 }
