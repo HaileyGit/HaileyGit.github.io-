@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "scripts": {
+        "test": "yarn workspace gatsby-theme-portfolio-minimal test",
+        "clean": "yarn workspace hailey-blog clean",
+        "build": "yarn workspace hailey-blog build",
+        "develop": "yarn workspace hailey-blog develop",
+        "serve": "yarn workspace hailey-blog serve",
+        "format": "prettier --write --ignore-path .gitignore \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|graphql|md|mdx)\"",
+        "lint": "yarn workspaces run lint"
+    },
+    "workspaces": [
+        "gatsby-theme-portfolio-minimal",
+        "hailey-blog"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal.git"
+    },
+    "devDependencies": {
+        "husky": "4",
+        "lint-staged": "^10.5.4",
+        "prettier": "^2.2.1"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.+(ts|tsx)": [
+            "yarn lint"
+        ],
+        "*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)": [
+            "yarn format"
+        ]
+    }
+}
