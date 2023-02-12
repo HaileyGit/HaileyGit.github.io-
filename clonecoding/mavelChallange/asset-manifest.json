@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/clonecoding/mavelChallange/static/css/main.a818ffe1.css",
+    "main.js": "/clonecoding/mavelChallange/static/js/main.36b42cf1.js",
+    "index.html": "/clonecoding/mavelChallange/index.html",
+    "main.a818ffe1.css.map": "/clonecoding/mavelChallange/static/css/main.a818ffe1.css.map",
+    "main.36b42cf1.js.map": "/clonecoding/mavelChallange/static/js/main.36b42cf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a818ffe1.css",
+    "static/js/main.36b42cf1.js"
+  ]
+}
