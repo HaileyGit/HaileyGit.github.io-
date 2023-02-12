@@ -1,0 +1,225 @@
+.hidden {
+  display: none;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  position: relative;
+  background-image: url("../img/Background.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100vw 100vh;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+/* grid Area */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header right right"
+    "menu menu main main right right"
+    "menu menu footer footer right right";
+}
+
+.grid-container > div {
+  /* text-align: center; */
+}
+
+.item1 {
+  grid-area: header;
+  margin-top: 10vh;
+  width: 67vw;
+  height: 10vh;
+  line-height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.item1 > h1 {
+  margin-right: 16vw;
+  color: #a0c5cf;
+  font-size: 3.7vw;
+  line-height: 0;
+}
+
+#editID {
+  border: none;
+  font-family: "Nanum Pen Script", cursive;
+  width: 7.5vw;
+  font-size: 1.4vw;
+  background-color: inherit;
+}
+
+#submitName {
+  font-family: "Nanum Pen Script", cursive;
+  width: 7.5vw;
+  font-size: 1.4vw;
+  border-radius: 10px;
+  background-color: inherit;
+  margin-left: 1.5vw;
+}
+
+.item2 {
+  grid-area: menu;
+  width: 27vw;
+  height: 72vh;
+}
+#timeArea {
+  margin-top: 28vh;
+  margin-left: 7.5vw;
+  font-size: 2vw;
+}
+#clock {
+  margin: 0;
+}
+
+#quote {
+  color: rgb(61, 61, 61);
+  font-size: 1.2vw;
+  font-family: "East Sea Dokdo", cursive;
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  width: 15vw;
+}
+#editProfile {
+  margin-left: 7.5vw;
+  margin-top: 4.6vh;
+  font-size: 1.4vw;
+  margin-bottom: 5vh;
+}
+
+#editBtn {
+  background-color: white;
+  color: rgb(98, 98, 98);
+  border: none;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 1.4vw;
+  font-weight: bold;
+  line-height: 4vh;
+}
+#editBtn:hover {
+  background-color: rgba(255, 196, 196, 0.122);
+  transition: 0.7s;
+  border-radius: 30px;
+}
+#editEmail {
+  padding-top: 0;
+  width: 90%;
+  background-color: white;
+  border-width: 1px;
+  margin-left: 0.5vw;
+}
+#editEmail[placeholder] {
+  color: rgb(71, 71, 71);
+  background-color: white;
+}
+#editEmail[disabled] {
+  color: rgb(255, 94, 0);
+  background-color: white;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 1.4vw;
+  border-width: 0;
+}
+
+#nickName {
+  color: rgb(58, 67, 143);
+  margin-top: 1vh;
+  margin-left: 0.5vw;
+  margin-bottom: 0;
+  font-size: 1.4vw;
+  padding: 0;
+}
+
+#weather {
+  margin-left: 13.5vw;
+  margin-top: 1.4vh;
+  font-size: 1.4vw;
+  color: #ffa44f;
+  line-height: 3.5vh;
+}
+
+#login-form {
+  position: sticky;
+  margin-left: 0vw;
+}
+
+/* main */
+.item3 {
+  grid-area: main;
+  width: 40vw;
+  height: 30vh;
+  overflow-y: auto;
+}
+
+.item3 > form {
+  padding-top: 0.4vh;
+  margin-left: 15vw;
+}
+.item3 > ul {
+  margin-top: 2.5vh;
+  margin-left: 2vw;
+  list-style-type: circle;
+  font-size: 2vw;
+}
+
+input {
+  height: 3vh;
+  width: 20vw;
+}
+
+/* Right */
+.item4 {
+  margin-top: 11.5vh;
+  grid-area: right;
+  width: 27vw;
+  height: 10vh;
+}
+.item4 > div {
+  margin-top: 3vh;
+  margin-left: 10vw;
+  font-size: 4vw;
+}
+#git {
+  width: 6vw;
+  height: 7vh;
+  margin-top: 5vh;
+  margin-left: 0;
+  cursor: pointer;
+}
+#music {
+  margin-left: 11vw;
+  width: 14vw;
+  height: 10vh;
+  overflow-x: auto;
+  white-space: nowrap;
+  font-size: 1.3vw;
+  line-height: 1.8vh;
+  color: gray;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  color: #2190b0;
+}
+#music::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+.item5 {
+  grid-area: footer;
+  margin-top: 5vh;
+  margin-left: 1vw;
+  margin-bottom: 10vh;
+  height: 28vh;
+  width: 35vw;
+  font-size: 1.4vw;
+}
+
+.item5 > div {
+  margin-top: 6.5vh;
+  margin-left: 6.4vw;
+  margin-bottom: 10vh;
+}
+#cnt {
+  font-weight: bold;
+  color: rgb(255, 87, 87);
+}
