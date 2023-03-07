@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/clonecoding/reactChallange-main/static/css/main.073c9b0a.css",
+    "main.js": "/clonecoding/reactChallange-main/static/js/main.75d7caee.js",
+    "index.html": "/clonecoding/reactChallange-main/index.html",
+    "main.073c9b0a.css.map": "/clonecoding/reactChallange-main/static/css/main.073c9b0a.css.map",
+    "main.75d7caee.js.map": "/clonecoding/reactChallange-main/static/js/main.75d7caee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.75d7caee.js"
+  ]
+}
