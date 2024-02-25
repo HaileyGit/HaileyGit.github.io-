@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/clonecoding/mavelChallange/static/css/main.de106fa3.css",
-    "main.js": "/clonecoding/mavelChallange/static/js/main.13f64456.js",
-    "index.html": "/clonecoding/mavelChallange/index.html",
-    "main.de106fa3.css.map": "/clonecoding/mavelChallange/static/css/main.de106fa3.css.map",
-    "main.13f64456.js.map": "/clonecoding/mavelChallange/static/js/main.13f64456.js.map"
+    "main.css": "/clonecoding/mavelstagram/static/css/main.de106fa3.css",
+    "main.js": "/clonecoding/mavelstagram/static/js/main.196068ad.js",
+    "index.html": "/clonecoding/mavelstagram/index.html",
+    "main.de106fa3.css.map": "/clonecoding/mavelstagram/static/css/main.de106fa3.css.map",
+    "main.196068ad.js.map": "/clonecoding/mavelstagram/static/js/main.196068ad.js.map"
   },
   "entrypoints": [
     "static/css/main.de106fa3.css",
-    "static/js/main.13f64456.js"
+    "static/js/main.196068ad.js"
   ]
 }
