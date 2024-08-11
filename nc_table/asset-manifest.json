@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nc_table/static/css/main.765c429c.css",
+    "main.js": "/nc_table/static/js/main.bea59e54.js",
+    "index.html": "/nc_table/index.html",
+    "main.765c429c.css.map": "/nc_table/static/css/main.765c429c.css.map",
+    "main.bea59e54.js.map": "/nc_table/static/js/main.bea59e54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.765c429c.css",
+    "static/js/main.bea59e54.js"
+  ]
+}
